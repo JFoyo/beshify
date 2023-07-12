@@ -46,7 +46,7 @@ function App() {
     <>
       <Flex height={"100vh"} width={"100%"} alignItems={"center"} justifyContent={"center"}>
         <Stack>
-          <Text fontSize={{base: '4xl', md: '4xl', xl: '6xl'}} fontFamily={"Shrikhand, cursive"}>🤸Beshist🤸</Text>
+          <Text fontSize={{base: '4xl', md: '4xl', xl: '6xl'}} fontFamily={"Shrikhand, cursive"}>🤸Beshify🤸</Text>
           <Stack>
             <HStack>
               <Input placeholder='Enter text...' onChange={(event) => setText(event.target.value)}></Input>
