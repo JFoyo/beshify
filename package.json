@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://JFoyo.github.io/beshify",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "prodeploy": "npm run build",

@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/beshify/",
   plugins: [react()],
+  server: {
+    open: true, // Automatically open the browser
+  },
 })
